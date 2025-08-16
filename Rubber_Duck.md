@@ -20,7 +20,6 @@ like op codes with functions
 the first few bits of a passed compressed bitstream should be the number of iterations to decode on
     every time we compress the stream, we can then recompress the compressed stream incase theres new overlap detected
 
-
 we need a function that can modularly check if usage of an OP code will be profitable
 
 we need to detect running lengths of 0 or 1
